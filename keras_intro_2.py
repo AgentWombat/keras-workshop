@@ -94,3 +94,6 @@ for i, label in enumerate(y_test):
 	plt.show()
 	print("-#-$-#-$-#-$-#-")
 
+# To save our model so that we could import into another program, we would use
+# "model.save('path/to/location')". To then import the model into code, we would
+# use "keras.models.load_model('path/to/model')". 

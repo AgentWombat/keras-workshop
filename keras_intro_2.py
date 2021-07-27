@@ -76,6 +76,9 @@ model.add(keras.layers.Dense(32, activation = 'relu'))
 model.add(keras.layers.Dense(16, activation = 'relu'))
 model.add(keras.layers.Dense(1,activation = 'sigmoid'))
 
+# "binary_crossentropy" works when the actual outputs are only ones and zeros.
+# It should be your default loss function when your model is ideally predicting
+# ones and zeros.
 model.compile(loss = 'binary_crossentropy', optimizer = 'adam',
 	metrics = ['accuracy'])
 

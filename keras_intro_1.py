@@ -55,6 +55,7 @@ model.compile(loss = "mean_squared_error", optimizer = 'adam')
 
 model.fit(x,y, epochs = 200)
 
+print("The actual weight values should be 0.5 and 0.")
 print("The model predicted these weight values:",model.weights)
 print("And the models prediction for input [4,5,60,100,11,12] is",
 	model.predict([4,5,60,100,11,12]))

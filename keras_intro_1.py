@@ -5,7 +5,7 @@ from tensorflow import keras # Same as "import tensorflow.keras as keras"
 
 # First, we will use Keras to perform linear regression on a "toy" dataset.
 # Then, we will use Keras to create a model for regognizing whether an image
-# is of a human or a horse.
+# is of a car or a plane.
 
 # The Sequential model in Keras facilitates creation of standard
 # feed forward networks (that is, data passes from one layer to the next

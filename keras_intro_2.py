@@ -2,7 +2,7 @@ from tensorflow import keras
 from matplotlib import pyplot as plt
 import numpy as np
 # We will use the cifar10 data. It contains 50,000 images which contain one
-# of 10 images, all labeled 0-9. The images are stored in 3D Numpy arrays.
+# of 10 image classes, all labeled 0-9. The images are stored in 3D Numpy arrays.
 # Two of the dimensions deal with pixels' position, the other dimension deals
 # with color (which uses 0-255 RGB).
 # We will only use images marked 0 (airplanes) and 1 (cars)
